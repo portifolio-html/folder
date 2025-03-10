@@ -1,0 +1,142 @@
+@charset "utf8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #1F1F1F;
+    display: flex;
+    margin-top: 3em;
+}
+
+main {
+    margin: auto;
+}
+
+.anuncio {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+    background: linear-gradient(#fff, #807F84);
+    width: 400px;
+    height: 400px;
+    padding: 0em 1em;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    color: #38439F;
+}
+
+.cont-header {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-top: -15px;
+    padding-bottom: .3em;
+}
+
+.box-text {
+    background-color: #0D77F3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 45px;
+    padding: 0 .6em;
+    border-radius: 20px 0;
+    color: #f1f1f1;
+    margin: 0 6px;
+}
+
+.detalhes {
+    padding-left: 3em;
+    color: #38439F;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.combo {
+    display: flex;
+    justify-content: center;
+    margin: .5em 0;
+    gap: .3em;
+    font-size: 1.2rem;
+    color: #38439F;
+}
+
+.box-text-2 {
+    background-color: #0D77F3;
+    padding: 0 .1em;
+    color: white;
+}
+
+.cont-valor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #38439F;
+    width: 210px;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    padding: .2em;
+}
+
+.valor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 7px 7px 0 0;
+    padding: .3em;
+    color: #38439F;
+}
+
+.valor .one {
+    font-size: .6rem;
+    font-weight: 900;
+}
+.valor .two {
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: 'Geometr415 Blk BT', 'Exotc350 DmBd BT', Helvetica, sans-serif;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.valor .tree {
+    font-size: .5rem;
+    text-align: right;
+    font-weight: 900;
+    font-family: 'Gill Sans MT';
+}
+
+.cont-valor > span {
+    color: white;
+    margin-top: .4em;
+    padding-bottom: .4em;
+}
+
+
+.inscreva-se a {
+    background-color: rgb(255, 0, 0);
+    padding: .1em 3em;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
