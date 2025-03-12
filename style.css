@@ -14,18 +14,30 @@ body {
 }
 
 main {
+    position: relative;
     margin: auto;
 }
 
 .anuncio {
+    position: relative;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     justify-content: right;
     align-items: end;
     background: linear-gradient(#fff, #807F84);
     width: 400px;
     height: 400px;
     padding: 0em 1em;
+}
+
+.anuncio-1 {
+    position: absolute;
+    width: 250px;
+    left: -60px;
+    transform: rotateY(180deg);
+    bottom: 0;
+    z-index: 0;
 }
 
 .header {
