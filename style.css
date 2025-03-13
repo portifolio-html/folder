@@ -123,11 +123,12 @@ h2 {
     font-weight: 900;
 }
 .valor .two {
-    font-size: 2.5rem;
-    font-weight: 900;
-    font-family: 'Geometr415 Blk BT', 'Exotc350 DmBd BT', Helvetica, sans-serif;
+    font-size: 2.9rem;
+    font-weight: 600;
+    font-family: "Kanit", 'Geometr415 Blk BT', 'Exotc350 DmBd BT', Helvetica, sans-serif;
     margin-top: -5px;
     margin-bottom: -5px;
+    transform: scaleY(1.3);
 }
 
 .valor .tree {
