@@ -405,3 +405,25 @@ h2 {
     font-size: .8rem;
     padding: .2em .6em;
 }
+
+/* ANUNCIO 4 */
+
+.header-anuncio-4 {
+    display: flex;
+}
+
+.main-anuncio-4 {
+    background-color: #00000062;
+    border-radius: 15px;
+}
+
+.cont-parte-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.partes-an4 {
+    background-color: white;
+    border-radius: 10px;
+    width: 32%;
+}
